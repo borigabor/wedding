@@ -1,0 +1,82 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  color: white;
+}
+
+.cover{
+  background: url("assets/RK-419.jpg")no-repeat center;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  display: table;
+  text-align: center;
+  position: relative;
+}
+.wrapper{
+  display: table-cell;
+  vertical-align:middle;
+}
+.wrapper-text{
+  background: hsla(100,0%,0%,.5);
+}
+.wrapper-text h2{
+  font-size: 1.8rem;
+  line-height: 2rem;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+}
+.wrapper-text h1{
+  font-size: 5rem;
+  margin-bottom: 1rem;
+  color: #d2ba87;
+ font-family: 'Great Vibes', cursi
+}
+.wrapper-text h3{
+  font-size: 1.5rem;
+}
+nav{
+  width: 30vw;
+  font-size: 0;
+  position: absolute;
+  top:10px;
+}
+nav h2{
+}
+nav ul{
+  text-align: center
+}
+nav li {
+  font-family: 'Anton', sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  height: 2rem;
+}
+nav a {
+  text-decoration: none;
+  color: white;
+  display: block;
+}
+nav a:hover {
+  color: grey;
+  transition: background-color .3s ease-in-out;
+}
+nav a.active {
+ 
+}
+@media (min-width: 600px) {
+
+  nav{
+    width: 100vw;
+  }
+  nav ul{
+        border-bottom: 1px solid #fff;
+  }
+  nav li {
+    display: inline-block;
+    width: 7.5rem;
+    
+  }
+
+}
